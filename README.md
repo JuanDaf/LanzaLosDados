@@ -1,9 +1,9 @@
 # Lanza los Dados  🎲🎲🎲🎲🎲
->Ejemplo de el lanzamiento de dados, donde se evalúa el numero de veces que se lanzo el dado en cada uno de sus valores obtenidos. 🌍
+>Ejemplo de el lanzamiento de dados, donde se evalúa el numero de veces que se lanzo el dado en cada uno de sus valores obtenidos.🌍
 
->Se utlizo linq para todo lo relacionad con la lista donde se almacena los valores obtenidos en cada lanzaminto del dado. 💯
+>Se utlizo linq para todo lo relacionad con la lista donde se almacena los valores obtenidos en cada lanzamiento del dado.💯
 
->Puedes tomar como base este proyecto para crear tus propios juegos o prouyetos. ✌️
+>Puedes tomar como base este proyecto para crear tus propios juegos o proyectos.✌️
 
 ### Que debes hacer...
 
