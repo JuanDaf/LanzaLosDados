@@ -23,16 +23,20 @@ namespace Lanzar_los_dados
         }
         public int lanzamientos()
         {
-            System.Random random = new System.Random(); 
+            Random random = new Random(); 
             var (tiros, dado )= ( numTiros(), 0 );
             while (tiros != 0) 
             {
                 dado = random.Next(1,6);
-                lanzamietos.Add(dado);
+                agregarLanzamiento(dado);
                 tiros--;
             }
-
             return dado;
+        }
+
+        public void agregarLanzamiento( int tiro)
+        {
+            lanzamietos.Add(tiro);
         }
        
     }
