@@ -1,0 +1,15 @@
+C:\Users\Usuario\source\repos\Lanzar los dados\Lanzar los dados\bin\Debug\net6.0\Lanzar los dados.exe
+C:\Users\Usuario\source\repos\Lanzar los dados\Lanzar los dados\bin\Debug\net6.0\Lanzar los dados.deps.json
+C:\Users\Usuario\source\repos\Lanzar los dados\Lanzar los dados\bin\Debug\net6.0\Lanzar los dados.runtimeconfig.json
+C:\Users\Usuario\source\repos\Lanzar los dados\Lanzar los dados\bin\Debug\net6.0\Lanzar los dados.dll
+C:\Users\Usuario\source\repos\Lanzar los dados\Lanzar los dados\bin\Debug\net6.0\Lanzar los dados.pdb
+C:\Users\Usuario\source\repos\Lanzar los dados\Lanzar los dados\obj\Debug\net6.0\Lanzar los dados.csproj.AssemblyReference.cache
+C:\Users\Usuario\source\repos\Lanzar los dados\Lanzar los dados\obj\Debug\net6.0\Lanzar los dados.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\source\repos\Lanzar los dados\Lanzar los dados\obj\Debug\net6.0\Lanzar los dados.AssemblyInfoInputs.cache
+C:\Users\Usuario\source\repos\Lanzar los dados\Lanzar los dados\obj\Debug\net6.0\Lanzar los dados.AssemblyInfo.cs
+C:\Users\Usuario\source\repos\Lanzar los dados\Lanzar los dados\obj\Debug\net6.0\Lanzar los dados.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\source\repos\Lanzar los dados\Lanzar los dados\obj\Debug\net6.0\Lanzar los dados.dll
+C:\Users\Usuario\source\repos\Lanzar los dados\Lanzar los dados\obj\Debug\net6.0\refint\Lanzar los dados.dll
+C:\Users\Usuario\source\repos\Lanzar los dados\Lanzar los dados\obj\Debug\net6.0\Lanzar los dados.pdb
+C:\Users\Usuario\source\repos\Lanzar los dados\Lanzar los dados\obj\Debug\net6.0\Lanzar los dados.genruntimeconfig.cache
+C:\Users\Usuario\source\repos\Lanzar los dados\Lanzar los dados\obj\Debug\net6.0\ref\Lanzar los dados.dll
