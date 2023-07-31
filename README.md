@@ -7,8 +7,8 @@
 
 ### Que debes hacer...
 
-- Descarga o clana el repositorio.
-- Abre la solucion del proyecto.
+- Descarga o clona el repositorio.
+- Abre la solución del proyecto.
 - Revisa el codigo, este esta abierto a refactorización.
 - Revisa el codigo y agrega más funcinalidades.
 - Puedes realizar peticiones Pull Requests.
