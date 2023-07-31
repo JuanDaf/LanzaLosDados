@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading.Channels;
 using System.Threading.Tasks;
 
 
@@ -9,7 +10,7 @@ namespace Lanzar_los_dados
 {
     public class Dados
     {
-        List<int> lanzamietos = new List<int>();   
+        public List<int> lanzamietos = new List<int>();   
         public Dados() { }
 
         public int numTiros() 
@@ -46,10 +47,17 @@ namespace Lanzar_los_dados
 
         public void mostrarLanzamientos()
         {
-            foreach (var item in lanzamietos)
-            {
-                Console.WriteLine("Lanzamiento: " + item);
-            }
+            lanzamietos.ForEach(x => Console.WriteLine($"Lanzamiento: {x}"));
+        }
+
+        public IEnumerable<int> numerosRepetidos()
+        {
+            var lista = lanzamietos.GroupBy(y => y).Select(x => x.Count());
+            return lista;
+        }
+        public IEnumerable<int> lanzamientosAgrupados()
+        {
+            return lanzamietos.Select(x => x).Distinct();
         }
        
     }
