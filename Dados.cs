@@ -21,13 +21,18 @@ namespace Lanzar_los_dados
                 return tiros;
             } catch (Exception e) { Console.WriteLine(e.Message); return 0; }
         }
-        public int lanzamientos()
+        public int lanzamientos(int numTiro)
         {
-            Random random = new Random(); 
-            var (tiros, dado )= ( numTiros(), 0 );
+            Random random = new Random();
+            var (tiros, dado )= (numTiro, 0 );
             while (tiros != 0) 
             {
-                dado = random.Next(1,6);
+                dado = random.Next(1, 6);
+                
+                Console.WriteLine("Lanzando el dado..");
+                Console.ReadKey();
+                Console.WriteLine("Tu tiro es: " + dado);
+
                 agregarLanzamiento(dado);
                 tiros--;
             }
@@ -37,6 +42,14 @@ namespace Lanzar_los_dados
         public void agregarLanzamiento( int tiro)
         {
             lanzamietos.Add(tiro);
+        }
+
+        public void mostrarLanzamientos()
+        {
+            foreach (var item in lanzamietos)
+            {
+                Console.WriteLine("Lanzamiento: " + item);
+            }
         }
        
     }
