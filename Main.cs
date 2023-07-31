@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Lanzar_los_dados
 {
-    internal class Main
+    public  class Main
     {
+
     }
 }
