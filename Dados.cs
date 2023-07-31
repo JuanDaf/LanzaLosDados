@@ -10,11 +10,12 @@ namespace Lanzar_los_dados
 {
     public class Dados
     {
-        public List<int> lanzamietos = new List<int>();   
-        public Dados() { }
+        public List<int> lanzamietos ;   
+        public Dados() {   }
 
         public int numTiros() 
         {
+            lanzamietos = new List<int>(); 
             Console.WriteLine("INGRESA EL # DE LANZAMIENTOS PARA ESTA RONDA: ");
             try
             {
