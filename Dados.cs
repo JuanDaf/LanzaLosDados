@@ -25,12 +25,12 @@ namespace Lanzar_los_dados
         public int lanzamientos(int numTiro)
         {
             Random random = new Random();
-            var (tiros, dado )= (numTiro, 0 );
+            var (tiros, dado  )= (numTiro, 0 );
             while (tiros != 0) 
             {
                 dado = random.Next(1, 6);
                 
-                Console.WriteLine("Lanzando el dado..");
+                Console.WriteLine($"Lanzando el dado.. Te quedan => {tiros} tiros");
                 Console.ReadKey();
                 Console.WriteLine("Tu tiro es: " + dado);
 
